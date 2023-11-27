@@ -9,7 +9,7 @@ const automata = {
         "tab": "Inicial",
         "enter": "Inicial",
         "_": "Error",
-        "!": "OpRyL1",
+        "!": "OpL4",
         ">": "OpR1",
         "<": "OpR2",
         "=": "OpAs1",
@@ -19,7 +19,7 @@ const automata = {
         "-": "OpA2",
         "*": "Com3",
         "%": "OpA1",
-        "/": "Com1",
+        "/": "OpA3",
         "\"": "Com2",
         ".": "Error",
         "(": "P1",
@@ -83,8 +83,8 @@ const automata = {
         ".": "Error",
         "(": "P1",
         ")": "P1",
-        "{": "C1",
-        "}": "C1",
+        "{": "Error",
+        "}": "Error",
         "Aceptacion": true,
         "type": "Paréntesis"
 
@@ -111,8 +111,8 @@ const automata = {
         "/": "Error",
         "\"": "Error",
         ".": "Error",
-        "(": "P1",
-        ")": "P1",
+        "(": "Error",
+        ")": "Error",
         "{": "C1",
         "}": "C1",
         "Aceptacion": true,
@@ -149,7 +149,7 @@ const automata = {
         "type": "Asignaciones",
 
     },
-    "OpRyL1": {
+    "OpL4": {
 
         "Alph": "Error",
         "Num": "Error",
@@ -416,7 +416,7 @@ const automata = {
         "type": "Números decimales"
 
     },
-    "Com1": {
+    "OpA3": {
 
         "Alph": "Error",
         "Num": "Error",
